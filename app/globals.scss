@@ -1,0 +1,14 @@
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+.navbar-btn {
+	border-radius: 3.5rem !important;
+	padding: 0.6rem 2rem !important;
+}
+.navbar-btn:hover {
+	color: $dark !important;
+}
+@import "bootstrap/scss/bootstrap.scss";
