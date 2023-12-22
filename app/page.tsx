@@ -1,6 +1,15 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Icons from "./components/Icons";
 import Navbar from "./components/Navbar";
 
 const Home = () => {
-	return <Navbar />;
+	return (
+		<>
+			<Navbar />
+			<Header />
+			<Icons />
+		</>
+	);
 };
 export default Home;
