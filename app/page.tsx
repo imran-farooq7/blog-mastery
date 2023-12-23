@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Icons from "./components/Icons";
 import Navbar from "./components/Navbar";
 import Statement from "./components/Statement";
+import Testimonials from "./components/Testimonials";
 
 const Home = () => {
 	return (
@@ -14,6 +15,7 @@ const Home = () => {
 			<Details />
 			<Statement />
 			<CraftContent />
+			<Testimonials />
 		</>
 	);
 };
