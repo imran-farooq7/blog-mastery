@@ -1,5 +1,6 @@
 import CraftContent from "./components/CraftContent";
 import Details from "./components/Details";
+import Download from "./components/Download";
 import Header from "./components/Header";
 import Icons from "./components/Icons";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ const Home = () => {
 			<Statement />
 			<CraftContent />
 			<Testimonials />
+			<Download />
 		</>
 	);
 };

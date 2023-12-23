@@ -17,6 +17,12 @@ $spacers: (
 	6: $spacer * 6,
 	7: $spacer * 8,
 ) !default;
+
+$enable-negative-margins: true;
+.download {
+	background: url(/images/download-background.jpg) center center no-repeat;
+	background-size: cover;
+}
 .navbar-btn {
 	border-radius: 3.5rem !important;
 	padding: 0.6rem 2rem !important;
