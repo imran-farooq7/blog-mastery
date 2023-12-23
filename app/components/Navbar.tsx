@@ -1,9 +1,26 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
+	const [colorChange, setColorchange] = useState(false);
+	const changeNavbarColor = () => {
+		if (window.scrollY >= 20) {
+			setColorchange(true);
+		} else {
+			setColorchange(false);
+		}
+	};
+	useEffect(() => {
+		window.addEventListener("scroll", changeNavbarColor);
+	}, []);
 	return (
-		<nav className="navbar navbar-expand-lg fixed-top navbar-dark py-3">
+		<nav
+			className={`navbar navbar-expand-lg fixed-top navbar-dark py-3 ${
+				colorChange ? "bg-dark" : ""
+			}`}
+		>
 			<div className="container">
 				<Link href="/" className="navbar-brand">
 					<Image

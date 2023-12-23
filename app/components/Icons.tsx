@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import { faDollar, faRocket, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Icons = () => {
