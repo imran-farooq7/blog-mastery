@@ -1,3 +1,4 @@
+import Details from "./components/Details";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Icons from "./components/Icons";
@@ -9,6 +10,7 @@ const Home = () => {
 			<Navbar />
 			<Header />
 			<Icons />
+			<Details />
 		</>
 	);
 };
