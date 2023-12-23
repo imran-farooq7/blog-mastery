@@ -23,10 +23,10 @@ const Icons = () => {
 							className="text-secondary"
 						/>
 						<div>
-							<h5 className="fw-meduim">Skyrocket Your Blog's Success</h5>
+							<h5 className="fw-meduim">Skyrocket Your Blogs Success</h5>
 							<p className="text-muted">
 								Take your blog to new heights with our proven strategies for
-								driving traffic and increasing your blog's visibility.
+								driving traffic and increasing your blogs visibility.
 							</p>
 						</div>
 					</div>

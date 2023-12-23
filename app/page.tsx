@@ -1,8 +1,8 @@
 import Details from "./components/Details";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
 import Icons from "./components/Icons";
 import Navbar from "./components/Navbar";
+import Statement from "./components/Statement";
 
 const Home = () => {
 	return (
@@ -11,6 +11,7 @@ const Home = () => {
 			<Header />
 			<Icons />
 			<Details />
+			<Statement />
 		</>
 	);
 };
