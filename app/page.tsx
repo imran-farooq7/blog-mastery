@@ -1,3 +1,4 @@
+import CraftContent from "./components/CraftContent";
 import Details from "./components/Details";
 import Header from "./components/Header";
 import Icons from "./components/Icons";
@@ -12,6 +13,7 @@ const Home = () => {
 			<Icons />
 			<Details />
 			<Statement />
+			<CraftContent />
 		</>
 	);
 };
