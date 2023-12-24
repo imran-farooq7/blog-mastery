@@ -13,6 +13,7 @@ const Hero = () => {
 								width={520}
 								height={700}
 								className="img-fluid"
+								priority
 							/>
 						</div>
 					</div>
