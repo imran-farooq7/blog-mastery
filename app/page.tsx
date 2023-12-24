@@ -4,6 +4,7 @@ import Download from "./components/Download";
 import Header from "./components/Header";
 import Icons from "./components/Icons";
 import Navbar from "./components/Navbar";
+import Social from "./components/Social";
 import Statement from "./components/Statement";
 import Testimonials from "./components/Testimonials";
 
@@ -18,6 +19,7 @@ const Home = () => {
 			<CraftContent />
 			<Testimonials />
 			<Download />
+			<Social />
 		</>
 	);
 };
